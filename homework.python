@@ -1,0 +1,28 @@
+import math
+
+first = "Katie" #string
+last = "Fields" #string
+age = 24 #string
+
+print first, last, age
+
+sideA = 12.55
+sideB = 17.85
+sideC = (sideA * sideA) + (sideB * sideB) 
+
+print sideC
+
+value = math.sqrt(sideC) 
+print value 
+
+operand1 = 95
+operand2 = 64.5
+
+print operand1 + operand2
+print operand1 - operand2
+print operand1 * operand2 
+print operand1 / operand2
+print operand1 % operand2
+
+#It is concise and eliminates extra lines of code that are uneeded.  
+#If the value needed to be change for one of the operands you would only need to change the value in the string.  
